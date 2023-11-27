@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b55b4a63-903b-4bd8-8809-1bb650e71d1d" name="변경" comment="0이하의 n값으로 percolation을 생성할때 예외 던지는 기능추가">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8541237af41dfae1ec48277f851b3ab4a2e89643" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/8541237af41dfae1ec48277f851b3ab4a2e89643" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percolation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
