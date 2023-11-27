@@ -4,8 +4,8 @@ out/
 !**/src/test/**/out/
 
 ## idea
-*/*/.idea/
 
+**/.idea/
 
 
 ### Eclipse ###
