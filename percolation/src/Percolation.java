@@ -2,6 +2,7 @@ import edu.princeton.cs.algs4.QuickFindUF;
 
 public class Percolation {
     private QuickFindUF quickFindUF;
+    private int gridLength;
     private boolean[] isOpen;
 
     // 테스트 클라이언트(선택 사항)
@@ -11,13 +12,19 @@ public class Percolation {
 
     // 모든 사이트가 처음에 차단된 상태에서 n 단위 그리드를 생성합니다.
     public Percolation(int n) {
-        quickFindUF = new QuickFindUF(n * n);
-        isOpen = new boolean[n * n];
+        gridLength = n;
+        quickFindUF = new QuickFindUF(gridLength * gridLength);
+        isOpen = new boolean[gridLength * gridLength];
     }
 
     // 사이트(행, 열)가 아직 열려 있지 않은 경우 사이트를 엽니다.
     public void open(int row, int col) {
+        int site = calculateSite(row, col);
+        isOpen[site] = true;
+    }
 
+    private int calculateSite(int row, int col) {
+        return ((row - 1) * gridLength) + (col - 1);
     }
 
     // 사이트(행, 열)가 열려 있나요?
