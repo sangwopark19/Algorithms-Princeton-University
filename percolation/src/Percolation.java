@@ -21,6 +21,15 @@ public class Percolation {
     public void open(int row, int col) {
         int site = calculateSite(row, col);
         isOpen[site] = true;
+        int[] adjacentSites = {site + 1, site - 1, site - gridLength, site + gridLength};
+        for (int i = 0; i < adjacentSites.length; i++) {
+            int adjacentSite = adjacentSites[i];
+            if (adjacentSite >= 0 || adjacentSite < gridLength * gridLength) {
+                if (isOpen[adjacentSite] == true) {
+                    quickFindUF.union(site, adjacentSite);
+                }
+            }
+        }
     }
 
     private int calculateSite(int row, int col) {
