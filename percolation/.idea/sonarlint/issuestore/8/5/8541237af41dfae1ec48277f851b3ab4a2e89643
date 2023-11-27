@@ -1,12 +1,17 @@
 
 7
-java:S1220""Move this file to a named package.8ÏÍ¾´À1
-L	java:S106"+Replace this use of System.out by a logger.(Ù’Ã‚ıÿÿÿÿ8İùœüÀ1
-Z
-java:S1854"8Remove this useless assignment to local variable "site".(åµİ¸ûÿÿÿÿ8éÍ¾´À1
-K
-java:S1481")Remove this unused "site" local variable.(åµİ¸ûÿÿÿÿ8êÍ¾´À1
+java:S1220""Move this file to a named package.8§ºëÿÀ1
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©î¸‡şÿÿÿÿ8ì¿îÿÀ1
+\
+java:S1854	"?Remove this useless assignment to local variable "percolation".(Êİ˜Î8­ºëÿÀ1
+M
+java:S1481	"0Remove this unused "percolation" local variable.(Êİ˜Î8®ºëÿÀ1
 U
-java:S1172"3Remove these unused method parameters "row", "col".(ßÀ‘·ûÿÿÿÿ8êÍ¾´À1
+java:S1172"3Remove these unused method parameters "row", "col".(ßÀ‘·ûÿÿÿÿ8¯ºëÿÀ1
 P
-java:S1172 "3Remove these unused method parameters "row", "col".(œ×êË8ëÍ¾´À1
+java:S1172"3Remove these unused method parameters "row", "col".(œ×êË8¯ºëÿÀ1
+L
+java:S1068"/Remove this unused "quickFindUF" private field.(Ì›şÄ8°ºëÿÀ1
+G
+java:S1068"*Remove this unused "isOpen" private field.(µ¼ñ8°ºëÿÀ1
