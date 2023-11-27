@@ -38,7 +38,7 @@ public class Percolation {
 
     // 사이트(행, 열)가 열려 있나요?
     public boolean isOpen(int row, int col) {
-        return true;
+        return isOpen[calculateSite(row, col)];
     }
 
     // 사이트(행, 열)가 꽉 찼나요?
